@@ -8,7 +8,7 @@ In parallel and Thread context there are three type of programming languages:
  - But there are some others which blocks the thread until the execution finishes. like C#, Java, Python, PHP & etc...
 
 ### The blocking programming languages
-Using threads is costly in OSes as it consumes much processing time for initializing a thread or consumes much memory for retaining them, For solving this issue many solutions are getting used as best practices like using ThreadPool and etc.. which one of them is Reactor pattern (the pattern the JS uses) that specifically makes the web services not getting tightly binded to using thread-per-request and shares the threads between tasks.
+Using threads is costly in OSes as it consumes much processing time for initializing a thread or consumes much memory for retaining them, For solving this issue many solutions are getting used as best practices like using ThreadPool, etc ... which one of them is Reactor pattern (the pattern the JS uses) that specifically makes the web services not getting tightly bound to using thread-per-request and shares the threads between tasks.
 
 ### How does the Reactor pattern looks like
 We are not going in depth to Reactor pattern but the Reactor pattern is the main mechanism in JavaScript and NodeJs which calls an async task and passes a callback method and keeps running over other tasks until the callback methods get triggered which means the async task got finished.
@@ -31,7 +31,7 @@ This project is a simple try on Nightly Builds and WeekEnd tries open source mod
 
 
 ## How to use this project
-The current vision for the final usage of examples looks loke the bellow code sample
+The current vision for the final usage of examples looks like the bellow code sample
 
 Please note that this is just a raw perspective and may get changed:
 
