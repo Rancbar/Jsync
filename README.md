@@ -11,7 +11,7 @@ In parallel and Thread context there are three type of programming languages:
 Using threads is costly in OSes as it consumes much processing time for initializing a thread or consumes much memory for retaining them, For solving this issue many solutions are getting used as best practices like using ThreadPool and etc.. which one of them is Reactor pattern (the pattern the JS uses) that specifically makes the web services not getting tightly bound to using thread-per-request and shares the threads between tasks.
 
 ### How does the Reactor pattern looks like
-We are not going in depth to Reactor pattern but the Reactor pattern is the main mechanism in Java Script and NodeJs which calls an async task and passes a callback method and keeps running over other tasks until the callback methods get triggered which means the async task got finished.
+We are not going in depth to Reactor pattern but the Reactor pattern is the main mechanism in JavaScript and NodeJs which calls an async task and passes a callback method and keeps running over other tasks until the callback methods get triggered which means the async task got finished.
 
 The callback method got revolutionized to another concept named Promise and finally in today world it uses a mechanism called async/await syntactic sugar.
 
@@ -19,7 +19,7 @@ The C# language is supporting this feature too with both of asynchronous Task an
 
 Fortunately there is powerful features and third party projects for Java to support reactive programming using CompletableFuture, Reactor Project, RxJava and etc...
 
-But Unfortunately the Java language do not support the flat async programming by leveraging something like async/await syntactic sugar and it seems there is no attraction for Oracle to develop this feature.
+But Unfortunately the Java language do not support the flat async programming by leveraging something like async/await syntactic sugar, it seems there is no attraction for Oracle to develop this feature.
 
 ### What we are going to do
 This project is a simple try as Nightly Builds on weekends open source module to get this feature supported not same as other languages support but look and feel like them.
@@ -65,7 +65,7 @@ public class MyAsyncAwaitExample {
 
 ### You are welcomed to join us as contributor
 
-[*The contributors will get placed here with an avatar*]
+[*The contributors will get placed here with their avatar*]
 
 
 
