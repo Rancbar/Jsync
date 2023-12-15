@@ -18,7 +18,7 @@ public class MethodInjector {
     public static final String ANNOTATION_AWAIT = Type.getDescriptor(await.class);
 
 
-    public void handle(File classFile, AsyncMethodGenerator methodGenerator) throws IOException {
+    public File handle(File classFile, AsyncMethodGenerator methodGenerator) throws IOException {
         FileInputStream in = new FileInputStream(classFile);
         byte[] image;
         try {
@@ -42,6 +42,7 @@ public class MethodInjector {
         FileOutputStream out = new FileOutputStream(classFile);
         out.write(image);
         out.close();
+        return classFile;
     }
 
     public static String getNameWithoutExtension(String fileName) {

@@ -11,8 +11,8 @@ import java.io.*;
 
 public class ProcessMojo extends AbstractMojo {
     // TODO: For real test and replacing the generated class file set the following flag to "false"
-    public static final boolean DEBUG_MODE = true;
-    public static final String DEBUG_FILE_POSTFIX = "-2";
+    public static boolean DEBUG_MODE = false;
+    public static final String DEBUG_FILE_POSTFIX = "_2";
 
     /**
      * The method generator class should get assigned inside the host project
